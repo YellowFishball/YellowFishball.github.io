@@ -1,25 +1,27 @@
 body {
-	background-color: #EBD859
+	background-color: #EBD859;
 }
 
 h1 {
 	color: green;
 	text-align: center;
-	border: 2px black;
+	border: 2px solid black;
 	font-family: verdana;
-	font-size: 400%;
+	font-size: 4em;
 }
 
 h2 {
 	color: #006400;
 	text-align: center;
-	border: 2px black;
+	border: 2px solid black;
 	font-family: verdana;
-	font-size: 300%;
+	font-size: 3em;
 }
 
 p {
 	font-size: 8px;
+	color: black;
+}
 	color: black;
 }
 
