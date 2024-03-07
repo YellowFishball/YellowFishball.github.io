@@ -1,25 +1,36 @@
 body {
-	background-color: #EBD859;
+    background-color: #EBD859;
 }
 
 h1 {
-	color: green;
-	text-align: center;
-	border: 2px solid black;
-	font-family: verdana;
-	font-size: 4em;
+    color: green;
+    text-align: center;
+    border: 2px solid black;
+    font-family: verdana;
+    font-size: 4em;
 }
 
 h2 {
-	color: #006400;
-	text-align: center;
-	border: 2px solid black;
-	font-family: verdana;
-	font-size: 3em;
+    color: #006400;
+    text-align: center;
+    border: 2px solid black;
+    font-family: verdana;
+    font-size: 3em;
 }
 
 p {
-	font-size: 2em;
-	color: black;
-	text-align: center;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
 }
