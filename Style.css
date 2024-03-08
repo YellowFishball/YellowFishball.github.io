@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Title Here</title>
     <style>
-        /* Existing CSS code */
         body {
-            background-color: #EBD859 !important;
+            background-color: #EBD859;
         }
 
         h1 {
@@ -41,42 +40,6 @@
 
         nav ul li a:hover {
             border-bottom: 1px solid black;
-        }
-
-        /* Additional CSS code */
-        /* Insert additional CSS code here */
-        /* Style.css */
-        /* Remove or adjust conflicting styles */
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: flex-end;
-            width: 100%;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-left: 10px;
-        }
-
-        nav ul li:first-child {
-            margin-left: 0;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: black;
         }
     </style>
 </head>
