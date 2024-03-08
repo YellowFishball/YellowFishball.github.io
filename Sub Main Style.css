@@ -3,8 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Title Here</title> <!-- Add a title element here -->
-    <link rel="stylesheet" href="your_stylesheet.css">
+    <title>Your Title Here</title>
+    <style>
+        h1 {
+            font-family: Verdana, sans-serif;
+            color: #006400;
+            font-size: 4em;
+        }
+        h2 {
+            font-family: Verdana, sans-serif;
+            color: gold;
+        }
+        nav {
+            background-color: #87CEEB;
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        body {
+            background-color: #87CEEB;
+            padding: 20px;
+        }
+        section:nth-child(odd) {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Heading 1</h1>
