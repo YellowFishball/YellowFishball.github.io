@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old World Wisconsin Project - Accessibility</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header with navigation -->
+    <header role="banner">
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main id="main-content" role="main">
+        <!-- Accessibility section -->
+        <section id="accessibility" aria-labelledby="accessibility-heading">
+            <h1 id="accessibility-heading">Accessibility</h1>
+            <p>We are committed to ensuring that the Old World Wisconsin Project website is accessible to everyone. Our site adheres to the Web Content Accessibility Guidelines (WCAG) to provide an inclusive experience for all users.</p>
+            <p>We continually strive to improve our accessibility practices and welcome feedback on how we can enhance the user experience.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <p>&copy; 2024 Old World Wisconsin Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
